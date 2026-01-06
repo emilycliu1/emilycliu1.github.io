@@ -1,0 +1,91 @@
+/* Color constants */
+:root {
+    --bg-color: #f0f0f0;
+    --text-color: #000000;
+    --font-family: Georgia, serif;
+}
+
+/* Base styles */
+body {
+    background-color: var(--bg-color);
+    color: var(--text-color);
+    font-family: var(--font-family);
+    margin: 0;
+    padding: 20px;
+}
+
+/* Header styles */
+header {
+    text-align: center;
+}
+
+header h1 {
+    margin: 0 0 20px 0;
+}
+
+header h1 a {
+    color: var(--text-color);
+    text-decoration: none;
+}
+
+header h1 a:hover {
+    text-decoration: none;
+}
+
+/* Navigation styles */
+nav {
+    text-align: center;
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 15px;
+}
+
+nav ul li a {
+    color: var(--text-color);
+    text-decoration: none;
+}
+
+nav ul li a:hover {
+    text-decoration: underline;
+}
+
+/* Main content */
+main {
+    margin-top: 30px;
+}
+
+/* Footer / Social media bar */
+footer {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    text-align: center;
+    padding: 15px;
+    background-color: var(--bg-color);
+}
+
+footer .social-links {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+footer .social-links a {
+    color: var(--text-color);
+    font-size: 24px;
+    text-decoration: none;
+    transition: opacity 0.3s;
+}
+
+footer .social-links a:hover {
+    opacity: 0.7;
+}
