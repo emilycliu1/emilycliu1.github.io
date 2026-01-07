@@ -57,6 +57,10 @@ nav ul li a:hover {
     text-decoration: underline;
 }
 
+nav ul li a.active {
+    font-weight: bold;
+}
+
 /* Main content */
 main {
     margin-top: 30px;
