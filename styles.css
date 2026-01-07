@@ -64,6 +64,11 @@ nav ul li a.active {
 /* Main content */
 main {
     margin-top: 30px;
+    max-width: 700px;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 0 20px;
+    text-align: left;
 }
 
 /* Footer / Social media bar */
